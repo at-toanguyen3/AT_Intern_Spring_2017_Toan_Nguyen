@@ -1,0 +1,40 @@
+CASCADING STYLE SHEETS(CSS)
+
+	SYNTAX
+		Seclector {property : value;}
+	SELECTOR
+		- Element Selectors
+		- Class Selectors
+		- Id Seclectors
+			 Example: <p class="key" id="principal">
+		- Child Selectors
+			Example: <ul>  
+					<li>Item 1</li>  
+					<li>    
+						<ol>      
+							<li>Subitem 2A</li>      
+							<li>Subitem 2B</li>    
+						</ol>  
+					</li> 
+				</ul>
+	PSEUDO-CLASSES
+		Example: selector:pseudo-class {    property:value; }
+	PSEUDO-ELEMENTS
+		Example: selector::pseudo-element {  property: value; }
+	PROPERTIES & VALUES
+		Example: #box {  width: 200px;}
+		-Text and Fonts
+		-Colors and Backgrounds
+		-The Box Model
+		-Visual Formatting
+		-Generated Content and Lists
+		-Transitions and Transformation
+	PRIOTY ASCENDING
+		-Element
+		-Class
+		-Id
+		-External Styles-Internal Styles-Inline Styles
+		-!Impotant
+
+
+	
