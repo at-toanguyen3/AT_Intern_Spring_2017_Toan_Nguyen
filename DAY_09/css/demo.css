@@ -1,0 +1,28 @@
+.container{
+	 
+	 position: relative;
+	 left: 0;
+	 width: 1024px;
+}
+.top{
+	position: relative;
+}
+.left{
+	width: 700px
+	height:224;
+	background-color: red;
+	position:absolute;
+}
+.right{
+	width: 700px
+	height:800px;
+	background-color: blue;
+	position:absolute;
+}
+.bottom {
+	width: 100px
+	height:1024px;
+	
+	background-color: black;
+	position:absolute;
+}
