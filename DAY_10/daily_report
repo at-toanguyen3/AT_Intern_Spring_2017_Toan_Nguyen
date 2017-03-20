@@ -1,0 +1,34 @@
+To day 20-03-2017
+PROC
+	A proc is a	saved block	we can use over	and	over again
+	Example:
+		multiples_of_3	=	Proc.new	do	|n|		
+				n	%	3	==	0 
+				end
+				(1..100).to_a.select(&multiples_of_3)
+			result	==>	3,	6,	9,	12,	15,	18,	21,	24,	27	...
+LAMBDAS
+	A lambda is	just like a	proc, only it cares	about the number of	arguments it gets and it returns to	its	calling	method rather than returning immediately
+	Example:
+		strings	=	["leonardo",	"donatello",	"raphel",	"michaelangelo"]
+		symbolize	=	lambda	{	|name|	name.to_sym	}	nil strings.collect(&symbolize)
+		result 	==>	[:leonardo,	:donatello,	:raphel,	:michaelangelo]
+Example	between	procs &	lambdas:
+	def	batman_ironman_proc
+					victor	=	Proc.new{return	"Batman	will win!"	}	
+								victor.call				
+								"Iron	Man	will	win!"
+								 end
+					puts	batman_ironman_proc
+	def	batman_ironman_lambda	
+				victor	=	lambda	{	return	"Batman	will	win!"	}				victor.call				"Iron	Man	will	win!" end
+				puts	batman_ironman_lambda
+		result:
+		Batman will	win! 
+		Ironman	will win!
+
+
+
+
+
+	
